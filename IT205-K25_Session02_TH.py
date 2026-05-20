@@ -48,11 +48,15 @@ else :
 
 level_fee = 'cao' if total_fee > 500000 else 'thấp'
 
+print()
+print('--- KẾT QUẢ ---')
 print(f'Tên: {patient_name}')
 print(f'Tuổi: {age}')
 print(f'Nhiệt độ: {temperature} °C')
-print(f'Số ngày bị bệnh: {sick_days}')
+print(f'Số ngày bệnh: {sick_days}')
+print()
 print(f'Tình trạng: {status}')
 print(f'Mức độ ưu tiên: {priority}')
+print()
 print(f'Tổng chi phí: {total_fee}')
 print(f'Mức chi phí: {level_fee}')
